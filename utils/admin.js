@@ -1,4 +1,5 @@
 const admin = require("firebase-admin/app");
+require("dotenv").config()
 
 // require("firebase/firestore");
 
