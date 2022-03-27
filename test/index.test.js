@@ -1,5 +1,8 @@
-const expect = require('expect');
-const request = require('supertest');
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const admin = require("./../utils/admin")
+
+const expect = chai.expect();
 const db = admin.firestore();
 
 
